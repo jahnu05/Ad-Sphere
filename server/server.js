@@ -31,7 +31,8 @@ app.use(
 );
 
 // connection to the mongoDB Atlas
-const URI = "mongodb+srv://vivekhruday005:kFdzrmET7mrcf4NI@cluster0.bficz.mongodb.net/box_ads"
+// const URI = "mongodb+srv://vivekhruday005:kFdzrmET7mrcf4NI@cluster0.bficz.mongodb.net/box_ads"
+const URI = "mongodb+srv://venkatajahnavivenkamsetty:eQz44S2bf06bKrlf@cluster0.3krraua.mongodb.net/"
 mongoose.connect(URI)
   .then(() => console.log('Connected to MongoDB Atlas'))
   .catch(err => console.error('Error connecting to MongoDB Atlas:', err));
