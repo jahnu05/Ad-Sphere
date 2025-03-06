@@ -31,9 +31,7 @@ app.use(
 );
 
 // connection to the mongoDB Atlas
-// const URI = "mongodb+srv://venkatajahnavivenkamsetty:Chakri%40123@cluster0.bficz.mongodb.net/box_ads"
-// const URI = "mongodb+srv://venkatajahnavivenkamsetty:QcJ65btB4kM1I9cU@cluster0.3krraua.mongodb.net/box_ads?retryWrites=true&w=majority&appName=Cluster0";
-const URI = "mongodb+srv://venkatajahnavivenkamsetty:QcJ65btB4kM1I9cU@cluster0.3krraua.mongodb.net/box_ads";
+const URI = "mongodb+srv://vivekhruday005:kFdzrmET7mrcf4NI@cluster0.bficz.mongodb.net/box_ads"
 mongoose.connect(URI)
   .then(() => console.log('Connected to MongoDB Atlas'))
   .catch(err => console.error('Error connecting to MongoDB Atlas:', err));
